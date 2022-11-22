@@ -1,0 +1,25 @@
+<link rel="stylesheet" type="text/css" href="page.css">
+<script src="page.js"></script>
+
+<form id="pageForm" action="">
+
+    <h1>Add a Person:</h1>
+    <p><input placeholder="First name..." id="firstNameInput"></p>
+    <p><input placeholder="Last name..." id="lastNameInput"></p>
+    <p><input placeholder="Age..." id="ageInput"></p>
+    <p><input placeholder="Job..." id="jobInput" ></p>
+    
+    <button type="button" id="addBtn" onclick="addPerson()">Add</button>
+
+    <h1>List of People:</h1>
+    <table>
+        <tr>
+          <th  onclick="sortList('firstName', false)">First name</th>
+          <th onclick="sortList('lastName', false)">Last Name</th>
+          <th onclick="sortList('age', true)">Age</th>
+          <th onclick="sortList('job', false)">Job</th>
+        </tr>
+        <tbody id="tableData"></tbody>
+    </table>
+    
+</form>

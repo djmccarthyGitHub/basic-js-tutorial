@@ -1,0 +1,25 @@
+ /* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+  
+.error {
+  border:2px solid red;
+}
+
+th {
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+table {
+  font-size: 18px;
+}
+
+button {
+  font-size: 20px;
+}
